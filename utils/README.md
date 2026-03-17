@@ -28,7 +28,6 @@ For each NLP resource:
 
     Example
     ```bash
-	utils/tsv-to-tagl.pl tagd:treebank assets/penn-treebank-pos.tsv \
+	utils/tsv-to-tagl.pl tagd:nlp assets/penn-treebank-pos.tsv \
         > tagl/penn-treebank-pos.tagl
     ```
-

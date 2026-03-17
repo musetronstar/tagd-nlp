@@ -1,0 +1,6 @@
+>> tagd:nlp _sub _entity; -- TODO _name
+>> tagd:nlp:treebank _sub tagd:nlp;
+>> tagd:nlp:pos _sub tagd:nlp:treebank;
+>> tagd:nlp:treebank:number _type_of _entity;  -- TODO _id, _number
+>> tagd:nlp:treebank:tag _type_of _entity; -- TODO _name, _tag
+>> tagd:nlp:treebank:description _type_of _message;

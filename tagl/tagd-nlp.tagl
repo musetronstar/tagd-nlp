@@ -1,0 +1,254 @@
+%% _include tagd-nlp-bootstrap.tagl;
+
+>> tagd:nlp:pos:CC _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 1,
+		tagd:nlp:treebank:tag = "CC",
+		tagd:nlp:treebank:description = "Coordinating conjunction"
+
+>> CC _refers_to tagd:nlp:pos:CC _context tagd:nlp
+
+>> tagd:nlp:pos:CD _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 2,
+		tagd:nlp:treebank:tag = "CD",
+		tagd:nlp:treebank:description = "Cardinal number"
+
+>> CD _refers_to tagd:nlp:pos:CD _context tagd:nlp
+
+>> tagd:nlp:pos:DT _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 3,
+		tagd:nlp:treebank:tag = "DT",
+		tagd:nlp:treebank:description = "Determiner"
+
+>> DT _refers_to tagd:nlp:pos:DT _context tagd:nlp
+
+>> tagd:nlp:pos:EX _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 4,
+		tagd:nlp:treebank:tag = "EX",
+		tagd:nlp:treebank:description = "Existential there"
+
+>> EX _refers_to tagd:nlp:pos:EX _context tagd:nlp
+
+>> tagd:nlp:pos:FW _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 5,
+		tagd:nlp:treebank:tag = "FW",
+		tagd:nlp:treebank:description = "Foreign word"
+
+>> FW _refers_to tagd:nlp:pos:FW _context tagd:nlp
+
+>> tagd:nlp:pos:IN _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 6,
+		tagd:nlp:treebank:tag = "IN",
+		tagd:nlp:treebank:description = "Preposition or subordinating conjunction"
+
+>> IN _refers_to tagd:nlp:pos:IN _context tagd:nlp
+
+>> tagd:nlp:pos:JJ _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 7,
+		tagd:nlp:treebank:tag = "JJ",
+		tagd:nlp:treebank:description = "Adjective"
+
+>> JJ _refers_to tagd:nlp:pos:JJ _context tagd:nlp
+
+>> tagd:nlp:pos:JJR _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 8,
+		tagd:nlp:treebank:tag = "JJR",
+		tagd:nlp:treebank:description = "Adjective, comparative"
+
+>> JJR _refers_to tagd:nlp:pos:JJR _context tagd:nlp
+
+>> tagd:nlp:pos:JJS _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 9,
+		tagd:nlp:treebank:tag = "JJS",
+		tagd:nlp:treebank:description = "Adjective, superlative"
+
+>> JJS _refers_to tagd:nlp:pos:JJS _context tagd:nlp
+
+>> tagd:nlp:pos:LS _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 10,
+		tagd:nlp:treebank:tag = "LS",
+		tagd:nlp:treebank:description = "List item marker"
+
+>> LS _refers_to tagd:nlp:pos:LS _context tagd:nlp
+
+>> tagd:nlp:pos:MD _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 11,
+		tagd:nlp:treebank:tag = "MD",
+		tagd:nlp:treebank:description = "Modal"
+
+>> MD _refers_to tagd:nlp:pos:MD _context tagd:nlp
+
+>> tagd:nlp:pos:NN _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 12,
+		tagd:nlp:treebank:tag = "NN",
+		tagd:nlp:treebank:description = "Noun, singular or mass"
+
+>> NN _refers_to tagd:nlp:pos:NN _context tagd:nlp
+
+>> tagd:nlp:pos:NNS _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 13,
+		tagd:nlp:treebank:tag = "NNS",
+		tagd:nlp:treebank:description = "Noun, plural"
+
+>> NNS _refers_to tagd:nlp:pos:NNS _context tagd:nlp
+
+>> tagd:nlp:pos:NNP _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 14,
+		tagd:nlp:treebank:tag = "NNP",
+		tagd:nlp:treebank:description = "Proper noun, singular"
+
+>> NNP _refers_to tagd:nlp:pos:NNP _context tagd:nlp
+
+>> tagd:nlp:pos:NNPS _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 15,
+		tagd:nlp:treebank:tag = "NNPS",
+		tagd:nlp:treebank:description = "Proper noun, plural"
+
+>> NNPS _refers_to tagd:nlp:pos:NNPS _context tagd:nlp
+
+>> tagd:nlp:pos:PDT _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 16,
+		tagd:nlp:treebank:tag = "PDT",
+		tagd:nlp:treebank:description = "Predeterminer"
+
+>> PDT _refers_to tagd:nlp:pos:PDT _context tagd:nlp
+
+>> tagd:nlp:pos:POS _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 17,
+		tagd:nlp:treebank:tag = "POS",
+		tagd:nlp:treebank:description = "Possessive ending"
+
+>> POS _refers_to tagd:nlp:pos:POS _context tagd:nlp
+
+>> tagd:nlp:pos:PRP _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 18,
+		tagd:nlp:treebank:tag = "PRP",
+		tagd:nlp:treebank:description = "Personal pronoun"
+
+>> PRP _refers_to tagd:nlp:pos:PRP _context tagd:nlp
+
+>> tagd:nlp:pos:PRP _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 19,
+		tagd:nlp:treebank:tag = "PRP",
+		tagd:nlp:treebank:description = "Possessive pronoun"
+
+>> PRP _refers_to tagd:nlp:pos:PRP _context tagd:nlp
+
+>> tagd:nlp:pos:RB _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 20,
+		tagd:nlp:treebank:tag = "RB",
+		tagd:nlp:treebank:description = "Adverb"
+
+>> RB _refers_to tagd:nlp:pos:RB _context tagd:nlp
+
+>> tagd:nlp:pos:RBR _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 21,
+		tagd:nlp:treebank:tag = "RBR",
+		tagd:nlp:treebank:description = "Adverb, comparative"
+
+>> RBR _refers_to tagd:nlp:pos:RBR _context tagd:nlp
+
+>> tagd:nlp:pos:RBS _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 22,
+		tagd:nlp:treebank:tag = "RBS",
+		tagd:nlp:treebank:description = "Adverb, superlative"
+
+>> RBS _refers_to tagd:nlp:pos:RBS _context tagd:nlp
+
+>> tagd:nlp:pos:RP _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 23,
+		tagd:nlp:treebank:tag = "RP",
+		tagd:nlp:treebank:description = "Particle"
+
+>> RP _refers_to tagd:nlp:pos:RP _context tagd:nlp
+
+>> tagd:nlp:pos:SYM _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 24,
+		tagd:nlp:treebank:tag = "SYM",
+		tagd:nlp:treebank:description = "Symbol"
+
+>> SYM _refers_to tagd:nlp:pos:SYM _context tagd:nlp
+
+>> tagd:nlp:pos:TO _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 25,
+		tagd:nlp:treebank:tag = "TO",
+		tagd:nlp:treebank:description = "to"
+
+>> TO _refers_to tagd:nlp:pos:TO _context tagd:nlp
+
+>> tagd:nlp:pos:UH _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 26,
+		tagd:nlp:treebank:tag = "UH",
+		tagd:nlp:treebank:description = "Interjection"
+
+>> UH _refers_to tagd:nlp:pos:UH _context tagd:nlp
+
+>> tagd:nlp:pos:VB _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 27,
+		tagd:nlp:treebank:tag = "VB",
+		tagd:nlp:treebank:description = "Verb, base form"
+
+>> VB _refers_to tagd:nlp:pos:VB _context tagd:nlp
+
+>> tagd:nlp:pos:VBD _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 28,
+		tagd:nlp:treebank:tag = "VBD",
+		tagd:nlp:treebank:description = "Verb, past tense"
+
+>> VBD _refers_to tagd:nlp:pos:VBD _context tagd:nlp
+
+>> tagd:nlp:pos:VBG _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 29,
+		tagd:nlp:treebank:tag = "VBG",
+		tagd:nlp:treebank:description = "Verb, gerund or present participle"
+
+>> VBG _refers_to tagd:nlp:pos:VBG _context tagd:nlp
+
+>> tagd:nlp:pos:VBN _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 30,
+		tagd:nlp:treebank:tag = "VBN",
+		tagd:nlp:treebank:description = "Verb, past participle"
+
+>> VBN _refers_to tagd:nlp:pos:VBN _context tagd:nlp
+
+>> tagd:nlp:pos:VBP _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 31,
+		tagd:nlp:treebank:tag = "VBP",
+		tagd:nlp:treebank:description = "Verb, non-3rd person singular present"
+
+>> VBP _refers_to tagd:nlp:pos:VBP _context tagd:nlp
+
+>> tagd:nlp:pos:VBZ _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 32,
+		tagd:nlp:treebank:tag = "VBZ",
+		tagd:nlp:treebank:description = "Verb, 3rd person singular present"
+
+>> VBZ _refers_to tagd:nlp:pos:VBZ _context tagd:nlp
+
+>> tagd:nlp:pos:WDT _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 33,
+		tagd:nlp:treebank:tag = "WDT",
+		tagd:nlp:treebank:description = "Wh-determiner"
+
+>> WDT _refers_to tagd:nlp:pos:WDT _context tagd:nlp
+
+>> tagd:nlp:pos:WP _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 34,
+		tagd:nlp:treebank:tag = "WP",
+		tagd:nlp:treebank:description = "Wh-pronoun"
+
+>> WP _refers_to tagd:nlp:pos:WP _context tagd:nlp
+
+>> tagd:nlp:pos:WP _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 35,
+		tagd:nlp:treebank:tag = "WP",
+		tagd:nlp:treebank:description = "Possessive wh-pronoun"
+
+>> WP _refers_to tagd:nlp:pos:WP _context tagd:nlp
+
+>> tagd:nlp:pos:WRB _type_of tagd:nlp:pos
+	_has tagd:nlp:treebank:number = 36,
+		tagd:nlp:treebank:tag = "WRB",
+		tagd:nlp:treebank:description = "Wh-adverb"
+
+>> WRB _refers_to tagd:nlp:pos:WRB _context tagd:nlp
+
