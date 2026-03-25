@@ -11,7 +11,7 @@ all: $(TREEBANK_TAGL)
 $(TREEBANK_TAGL): utils/tsv-to-tagl.pl $(TREEBANK_ASSET) $(shell find utils/lib -type f | sort)
 	PERL5LIB=$(PERL5LIB) $(PERL) utils/tsv-to-tagl.pl tagd:nlp $(TREEBANK_ASSET) > $(TREEBANK_TAGL)
 
-tests:
+tests: $(TREEBANK_TAGL)
 	for test in $(TESTS); do PERL5LIB=$(PERL5LIB) $(PERL) $$test; done
 	tagsh --file tagl/tagd-nlp.tagl -n
 
